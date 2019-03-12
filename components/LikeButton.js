@@ -1,6 +1,6 @@
 import React from 'react'
 import { View, TouchableOpacity, Text, StyleSheet } from 'react-native'
-import { Icon } from 'native-base';
+import { Ionicons } from '@expo/vector-icons';
 
 export default class LikeButton extends React.Component {
 	state = {
@@ -19,10 +19,7 @@ export default class LikeButton extends React.Component {
 				<TouchableOpacity
 					onPress={this.likeImage}
 				>
-					<Icon
-						name='md-heart'
-						style={{ fontSize: 55, color: colorValue }}
-					/>
+					<Ionicons name="md-heart" size={55} color={colorValue} />
 				</TouchableOpacity>
 				<Text style={styles.likeNumberStyle}>
 					{likeValue}
