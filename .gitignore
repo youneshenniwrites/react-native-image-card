@@ -1,0 +1,7 @@
+node_modules
+.expo
+npm-debug.*
+yarn.lock
+.vscode
+.watchmanconfig
+.babelrc
