@@ -2,6 +2,8 @@
 
 <img width="1094" alt="card image" src="https://user-images.githubusercontent.com/26605247/54187250-05da5c80-44a5-11e9-8ddf-34b7ee9fe7d1.png">
 
+Video: https://www.youtube.com/watch?v=kFkiykgYMDI
+
 ## Prerequisites
 
 * [Expo CLI](https://docs.expo.io/versions/latest/workflow/expo-cli/)
