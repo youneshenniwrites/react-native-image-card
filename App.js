@@ -7,7 +7,6 @@ export default class App extends React.Component {
   render() {
     return (
       <ScrollView 
-        style={{ flex: 1, backgroundColor: '#fff2' }} 
         contentContainerStyle={styles.container}
       >
         {/* goes here a card component for images */}
@@ -15,6 +14,10 @@ export default class App extends React.Component {
           dogName={'Milou'} 
           imageUri={require('./assets/dog.jpg')} 
           avatarUri={require('./assets/dog.jpg')}
+        /><CardYounes 
+          dogName={'Tom'} 
+          imageUri={require('./assets/cat.jpeg')} 
+          avatarUri={require('./assets/cat.jpeg')}
         />
       </ScrollView>
     );
@@ -26,6 +29,5 @@ const styles = StyleSheet.create({
       backgroundColor: '#fff2',
       alignItems: 'center',
       justifyContent: 'center',
-      marginTop: 50,
   }
 })
