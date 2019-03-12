@@ -14,6 +14,9 @@
 1. Clone the repo in your local machine.
 ```
 git clone https://github.com/jtaylor1989/react-native-image-card.git
+
+# then
+
 cd react-native-image-card
 ```
 2. Install client dependencies.
